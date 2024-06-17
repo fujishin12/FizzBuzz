@@ -12,8 +12,9 @@ public class step1 {
 			} else if (i % 5 == 0) {
 				System.out.println("Buzz");
 
-			}
-			else {
+			} else if (i % 3 == 0 || i % 5 == 0) {
+				System.out.println("FizzBuzz");
+			} else {
 				System.out.println(i);
 			}
 
